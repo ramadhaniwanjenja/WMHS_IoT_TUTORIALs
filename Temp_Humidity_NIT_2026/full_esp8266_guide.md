@@ -266,7 +266,7 @@ Save as `weather_esp8266.ino`. **Update three things at the top with your own va
 // ⚠️ CHANGE THESE 3 LINES! ⚠️
 const char* WIFI_SSID     = "YourWiFiName";
 const char* WIFI_PASSWORD = "YourWiFiPassword";
-const char* SERVER_URL    = "http://192.168.1.105/weather/insert.php";  // your PC's IP
+const char* SERVER_URL = "http://192.168.18.27:8080/weather/insert.php";;  // your PC's IP
 
 // Pins
 #define DHT_PIN  D4
